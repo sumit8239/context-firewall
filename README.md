@@ -160,7 +160,7 @@ The firewall intercepts your multi-turn payload, dynamic-prunes token entropy, a
 
 We are currently opening conversations with select angel investors, pre-seed venture funds, and enterprise design partners who recognize that **context infrastructure and unit economics** are the defining bottlenecks for autonomous AI in 2026.
 
-* **Benchmark Whitepaper & Investor Deck:** DM on X [@sumitmehta](https://x.com) with the keyword **`FIREWALL`**.
+* **Benchmark Whitepaper & Investor Deck:** DM on X [@Sumitmehta3972](https://x.com/Sumitmehta3972) with the keyword **`FIREWALL`**.
 * **Enterprise Pilots & Inquiries:** Reach out via GitHub issues or email to discuss dedicated high-throughput cluster deployments.
 
 ---
