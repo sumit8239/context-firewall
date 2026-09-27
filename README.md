@@ -21,14 +21,14 @@ The **Cognitive Context Firewall** sits transparently on the wire as a high-perf
 
 ### Real Production Benchmark (`claude-opus-4-8` Multi-Turn Session)
 
-| Request State | Input Tokens | Completion Tokens | Turn Cost | Token Reduction |
+| Request State | Input Tokens | Completion Tokens | Turn Cost (Claude Opus 4.8) | Token Reduction |
 | :--- | :---: | :---: | :---: | :---: |
-| 🔴 **Raw Unfiltered Agent Loop** | 78,762 | 752 | $0.04126 | Baseline (0%) |
-| 🔴 **Intermediate Turn** | 71,282 | 705 | $0.03740 | Baseline (0%) |
-| 🟢 **Firewall Pruned Turn #1** | **6,782** | 12 | **$0.00342** | **-91.3%** |
-| 🟢 **Firewall Pruned Turn #2** | **6,658** | 12 | **$0.00336** | **-91.5%** |
+| 🔴 **Raw Unfiltered Agent Loop** | 78,762 | 752 | $0.4126 | Baseline (0%) |
+| 🔴 **Intermediate Turn** | 71,282 | 705 | $0.3740 | Baseline (0%) |
+| 🟢 **Firewall Pruned Turn #1** | **6,782** | 12 | **$0.0342** | **-91.3%** |
+| 🟢 **Firewall Pruned Turn #2** | **6,658** | 12 | **$0.0336** | **-91.5%** |
 
-*Measured on live streaming requests with zero loss in code or reasoning precision.*
+*Measured on live streaming requests with zero loss in code or reasoning precision (Opus 4.8 standard API rate: $5/1M input, $25/1M output).*
 
 ---
 
